@@ -1,0 +1,13 @@
+2022-05-03 23:15:53.513138
+U:\T1
+C.txt
+D.txt
+COPIADO PARA U:\T1com sucesso!
+U:\T2
+C.txt
+D.txt
+COPIADO PARA U:\T2com sucesso!
+
+
+Total de Falhas: 0
+
