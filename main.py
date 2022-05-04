@@ -46,15 +46,9 @@ while True:
                 print(station)
                 try:                 
                     for file in files:
-                        print(file) 
-                        
-                        source=r'labelserver.txt'
-                        source=source.replace("labelserver.txt", file)
-                        #source=r'LABEL_SERVER_HGU_SV.txt'
-                        destination=r'destino\labelserver.txt'
-                        destination=destination.replace("labelserver.txt", file)
-                        destination=destination.replace("destino", station)
-                        shutil.copyfile(source, destination)
+                        print('origem: ' +file)
+                        print('destino: ' +station)
+                        shutil.copy2(file, station)
                         
                     print('COPIADO PARA ' + station + 'com sucesso!')
                     
