@@ -24,6 +24,6 @@ shutil.copy2(file, station)
 ###### origin = esta lista deve conter o caminho do arquivo que você deseja gerar cópia(poderá ter mais de uma origem)
 
 1. O arquivo principal é o main.py, para o programa ser executado sem a presença do terminal, salvar este arquivo como main.pyw
-
+2 . Não esqueça de criar a pasta log no local que deseja salvar os registros das execuções, caso contrário ocorrerá erro
 ###### Links relacionados:
 [PYSIMPLEGUI](https://pysimplegui.readthedocs.io/en/latest/#pysimplegui-users-manual)
